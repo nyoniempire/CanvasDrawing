@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JoMax</string>
+    <string name="canvasContentDescription">Drag your fingers to draw</string>
+
+    <string name="clipping">Clipping</string>
+    <string name="translated">translatedText</string>
+    <string name="skewed">"Skewed and "</string>
+</resources>
