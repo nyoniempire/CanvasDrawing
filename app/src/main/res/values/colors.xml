@@ -10,7 +10,7 @@
 
     <color name="colorBackground">#FFFFFF</color>
     <color name="colorPaint">#FFFFEB3B</color>
-
+    <color name="transparent_black">#25000000</color>
     <array name="drawing_colors">
         <item></item>
     </array>

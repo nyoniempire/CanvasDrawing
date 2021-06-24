@@ -7,8 +7,8 @@
 
     <View
         android:id="@+id/view_my_canvas"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:background="@drawable/circle"
         android:layout_margin="@dimen/xxxsmall_margin"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center"
-            android:background="@color/colorPaint"
+            android:background="@color/transparent_black"
             android:padding="@dimen/xxxsmall_margin"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -36,16 +36,18 @@
             <androidx.appcompat.widget.AppCompatSeekBar
                 android:id="@+id/sk_bar_pen_size"
                 android:layout_width="0dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:max="100"
                 android:layout_weight="3"/>
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/fa_btn_screen_capture"
                 android:layout_width="0dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
+                app:fabCustomSize="50dp"
                 android:src="@drawable/ic_save"
                 android:layout_weight="1"
+                android:background="@color/transparent_black"
                 />
 
 

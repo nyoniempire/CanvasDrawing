@@ -34,6 +34,8 @@ class MainActivity : AppCompatActivity() {
             layoutManager = LinearLayoutManager(this@MainActivity,LinearLayoutManager.HORIZONTAL,false)
         }
 
+        changePenColors(DrawingColors.getColors()[0].value)
+
         binding.faBtnScreenCapture.setOnClickListener {
             Toast.makeText(this,"Saved",Toast.LENGTH_LONG).show()
             binding.viewMyCanvas.clearCanvas()
