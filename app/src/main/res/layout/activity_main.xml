@@ -50,10 +50,7 @@
                 android:background="@color/transparent_black"
                 />
 
-
         </androidx.appcompat.widget.LinearLayoutCompat>
-
-
-
+        
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
